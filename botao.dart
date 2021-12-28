@@ -12,8 +12,8 @@ BottomNavigationBar buildBottomNavigationBar() {
       })
     },
 
-    selectedItemColor: Colors.grey, 
-    unselectedItemColor: Colors.blue, 
+    selectedItemColor: Colors.blue, 
+    unselectedItemColor: Colors.black, 
 
     type: BottomNavigationBarType.fixed,
 
