@@ -1,4 +1,4 @@
-int _selectedIndex = 0; // ADICIONAR NO TELA PLANTÕES
+int _selectedIndex = 0; // ADICIONAR NO TELA PLANTÕES REGISTRADOS
 
 BottomNavigationBar buildBottomNavigationBar() {
   
@@ -12,8 +12,8 @@ BottomNavigationBar buildBottomNavigationBar() {
       })
     },
 
-    selectedItemColor: Colors.grey, // quando selecionados
-    unselectedItemColor: Colors.blue, // não selecionados
+    selectedItemColor: Colors.grey, 
+    unselectedItemColor: Colors.blue, 
 
     type: BottomNavigationBarType.fixed,
 
@@ -27,7 +27,7 @@ BottomNavigationBar buildBottomNavigationBar() {
   );
 }
 
-// essa parte do código vai na TELA PLANTÕES
+// essa parte do código vai na TELA PLANTÕES REGISTRADOS
 
 List<Widget> _pages;
 
@@ -35,7 +35,7 @@ List<Widget> _pages;
 void initState(){
   super.initState();
   _pages = <Widget>[ 
-    TelaPlantoes(), 
+    TelaPlantoesRegistrados(), 
     TelaGerenciarPlantoes(),
     HistoricoPage(),
   ];
