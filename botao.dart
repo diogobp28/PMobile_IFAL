@@ -19,7 +19,7 @@ BottomNavigationBar buildBottomNavigationBar() {
 
     items: [
 
-      BottomNavigationBarItem(icon: Icon(icons.assignment_ind_rounded), label: 'MEUS PLANTÕES'),
+      BottomNavigationBarItem(icon: Icon(icons.assignment_ind_rounded), label: 'PLANTÕES'),
       BottomNavigationBarItem(icon: Icon(icons.content_paste_rounded), label: 'GERENCIAR PLANTÕES'),
       BottomNavigationBarItem(icon: Icon(icons.book), label: 'HISTÓRICO'),
     
